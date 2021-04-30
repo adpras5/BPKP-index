@@ -1,0 +1,209 @@
+body{
+    
+}
+
+#wrapper {
+     
+	/*background-repeat: no-repeat;*/
+	/*-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;*/
+    width: 1024px;
+	height: 1350px;
+    margin: auto;
+    margin-top: -10px;
+    border: 3px solid #000;
+}
+
+
+header{
+    margin: auto;
+    padding: auto;
+    text-align: center;
+}
+
+header h1{
+    font-family: Book of Antiqua;
+    font-size: 72px;
+    color: #FFF;
+    margin: auto;
+    text-shadow: 2px 2px 2px black;
+}
+
+header p{
+    font-family: Vivaldi;
+    font-size: 30px;
+    color: #FFF;
+    margin: auto auto 25px auto;
+    text-shadow: 1px 1px 1px black;
+}
+
+nav {
+    margin: 0px auto 0px auto;
+    padding: 0px;
+    background: #FFF;
+    text-align:center;
+    letter-spacing: 3em;
+}
+
+nav ul {
+    display: inline-block;
+    margin: 0px auto 0px auto;
+    padding: 0px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0px;
+}
+
+nav ul li a{
+    margin: auto;
+    padding: 15px;
+    text-align: center;
+    letter-spacing: 0em;
+    font-family: MV Boli;
+    font-size: 30px;
+    font-style: oblique;
+    color: black;
+    text-decoration:none;
+}
+
+nav ul li a:hover{
+    text-shadow: 2px 2px 2px #aaa;
+}
+
+/*AWAL HOME*/
+main {
+    height: 1000px;
+    text-align: center;
+}
+
+main h1 {
+    font-family: Castellar;
+    font-size: 70px;
+    text-shadow: 2px 2px 2px white;
+}
+
+main ul li img{
+    width: 200px;
+    height: 150px;
+    padding: 30px;
+    transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+main ul li img:hover{
+    transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+}
+
+main ul {
+    display: inline-block;
+    text-align: center;
+}
+
+main ul li{
+    display: inline-block;
+    padding: 20px;
+    letter-spacing: 0em;
+    float: left;
+    font-family: Segoe UI;
+    font-size: 49.5px;
+}
+/*AKHIR HOME*/
+
+/*AWAL ABOUT*/
+main table{
+    font-size: 40px;
+    line-height: 2;
+}
+
+main div h2{
+    font-family: Lucida Fax;
+    font-size: 60px;
+}
+/*AKHIR ABOUT*/
+/*AWAL CONTACT*/
+main p{
+    font-family: Hobo Std;
+    font-size: 36px;
+}
+
+main ul{
+    display: inline-block;
+    letter-spacing: ;
+}
+
+main ul ab{
+    display: inline-block;
+    font-family: Hobo Std;
+    text-align: left;
+    line-height: 2;
+}
+
+main ul cd{
+    display: inline-block;
+    font-family: Hobo Std;
+    text-align: left;
+    line-height: 2;
+}
+
+main ul ef{
+    display: inline-block;
+    font-family: Hobo Std;
+    text-align: left;
+    line-height: 2;
+}
+/*AKHIR CONTACT*/
+/*AWAL GALLERY*/
+main table{
+    display: inline-block;
+}
+
+main h3{
+    font-family: Vivaldi;
+    font-size: 40px;
+    text-shadow: 2px 2px 2px grey; 
+}
+
+main table img{
+    background:#FFF;
+    border-radius:50% 0;
+    box-shadow:0 0 15px #000;
+    -moz-transition:all 1s;
+    -webkit-transition:all 1s;
+    -o-transition:all 1s;
+}
+
+main table img:hover{
+    border-radius:0;
+    cursor: pointer;
+    -moz-transition:all 1s;
+    -webkit-transition:all 1s;
+    -o-transition:all 1s;
+}
+
+/*AKHIR GALLERY*/
+#footer {
+    margin: auto;
+    padding: 0px;
+    text-align: center;
+    background: #fff;
+    font-family: Book Antiqua;
+    text-shadow: 1px 1px 1px grey;
+    font-size: 20px;
+}
+
+#footer a{
+    color: black;
+    text-decoration: none;
+}   
